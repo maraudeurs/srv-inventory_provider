@@ -14,6 +14,11 @@ class Settings(BaseSettings):
     scw_secret_key: str
     scw_organization_id: str
     scw_project_id: str
+    ## ovh provider settings
+    ovh_endpoint: str
+    ovh_application_key: str
+    ovh_application_secret: str
+    ovh_consumer_key: str
 
     class Config:
         env_file = ".env"

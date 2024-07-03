@@ -3,7 +3,10 @@ APScheduler==3.10.4
 cachetools==5.3.3
 certifi==2024.6.2
 charset-normalizer==3.3.2
+greenlet==3.0.3
 idna==3.7
+ovh==1.1.2
+psycopg2==2.9.9
 pydantic==2.8.0
 pydantic-settings==2.3.4
 pydantic_core==2.20.0
@@ -12,11 +15,12 @@ python-dotenv==1.0.1
 pytz==2024.1
 PyYAML==6.0.1
 requests==2.32.3
-scaleway==2.3.1
-scaleway-async==2.3.1
-scaleway-core==2.3.1
+scaleway==2.4.1
+scaleway-async==2.4.1
+scaleway-core==2.4.1
 six==1.16.0
 slumber==0.7.1
+SQLAlchemy==2.0.31
 typing_extensions==4.12.2
 tzlocal==5.2
 urllib3==2.2.2
